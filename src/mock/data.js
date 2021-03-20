@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'cgdiomampo-grayscale.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,29 +28,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'suna-website.jpg',
+    title: 'Suna Shoes and Accessories',
+    info:
+      'SUNA is proudly Australian-owned and was established in Toowoomba, Queensland in 1984. We are a husband and wife passionate about our business and we are dedicated to delivering style and innovation without having to compromise on comfort. Suna Shoes offers an extensive range of women’s footwear from around the world.',
     info2: '',
-    url: '',
+    url: 'https://www.suna.com.au/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'sunnybank-website.jpg',
+    title: 'Sunnybank Experience',
+    info:
+      '‘Experience Sunnybank’, a website dedicated to the many restaurants and entertainment retailers that Sunnybank Plaza and Sunny Park have on offer.',
     info2: '',
-    url: '',
+    url: 'https://www.experiencesunnybank.com.au/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'merthyrvillage-website.jpg',
+    title: 'Merthyr Village',
+    info:
+      'Merthyr Village is the Heart of New Farm and one of Brisbane’s premier shopping locations complete with more than twenty specialty stores in Food, Homewares, Gifts, Books, Liquor and the latest in women’s fashion.',
     info2: '',
-    url: '',
+    url: 'https://www.merthyrvillage.com.au/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
@@ -78,7 +81,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/cgdiomampo',
     },
     {
       id: nanoid(),

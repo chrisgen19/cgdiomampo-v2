@@ -1,65 +1,90 @@
 #hero {
-  min-height: 100vh;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  border-bottom: 0px;
-  background: $white-color;
-  font-weight: 400;
-  color: $dark-blue-text;
-  padding: 0rem 5.6rem;
-  margin-bottom: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  /* background: url("/src/assets/[your-image].png");
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: $white-color;
+    font-weight: 400;
+    color: $dark-blue-text;
+    padding: 0rem 5.6rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    // If you want to set a background image on the hero section, uncomment these with yout custom image
+    /* background: url("/src/assets/[your-image].png");
   background-position: center;
   background-size: cover; */
-
-  @include respond(phone) {
-    padding: 0rem $default-font-size;
-  }
-
-  .hero-title {
-    font-size: 5.6rem;
-    font-weight: 700;
-    margin-bottom: 3.2rem;
-    text-align: left;
-
-    @include respond(tab-land) {
-      font-size: 4rem;
-    }
-    @include respond(tab-port) {
-      font-size: 3.6rem;
-      text-align: center;
-    }
     @include respond(phone) {
-      font-size: 3.5rem;
-      line-height: 1.5;
+        padding: 0rem $default-font-size;
     }
-    @include respond(phone-xs) {
-      font-size: 2.8rem;
+    .hero-title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        margin-bottom: 3.2rem;
+        text-align: left;
+        @include respond(tab-land) {
+            font-size: 4rem;
+        }
+        @include respond(tab-port) {
+            font-size: 3.6rem;
+            text-align: center;
+        }
+        @include respond(phone) {
+            font-size: 3.5rem;
+            line-height: 1.5;
+        }
+        @include respond(phone-xs) {
+            font-size: 2.8rem;
+        }
     }
-  }
-
-  .hero-cta {
-    display: flex;
-
-    @include respond(tab-port) {
-      justify-content: center;
+    .hero-cta {
+        display: flex;
+        margin-bottom: 3.2rem;
+        @include respond(tab-port) {
+            justify-content: center;
+        }
+        & a {
+            font-size: 2.4rem;
+            @include respond(phone) {
+                font-size: 2rem;
+            }
+        }
     }
-
-    & a {
-      font-size: 2.4rem;
-
-      @include respond(phone) {
-        font-size: 2rem;
-      }
+    .mouse {
+        width: 3px;
+        padding: 3px 10px;
+        height: 28px;
+        border: 1.5px solid #02aab0;
+        border-radius: 25px;
+        opacity: .5;
+        box-sizing: content-box;
+        .scroller {
+            width: 3px;
+            height: 8px;
+            border-radius: 25%;
+            background-color: #02aab0;
+            animation-name: scroll;
+            animation-duration: 3s;
+            animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+            animation-iteration-count: infinite;
+        }
     }
-  }
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0
+    }
+    20% {
+        transform: translateY(0);
+        opacity: 1
+    }
+    to {
+        transform: translateY(15px);
+        opacity: 0;
+    }
 }

@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'A talented, ambitious and self motivated web developer with has a 10 years experience in developing websites. With a strong technical background who posses self discipline and the ability to work with minimum or without of supervision. A good team player, who thrives on creating engaging creative solution, can work fast and finish a task before deadline, can create a cool or awesome web design and a quick learner that can absorb new ideas'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
