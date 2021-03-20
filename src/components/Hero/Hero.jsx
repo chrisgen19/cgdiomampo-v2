@@ -40,13 +40,13 @@ const Header = () => {
               </Link>
             </span>
           </p>
-          <a className="scroll-btn" href="#case-study">
+          <Link to="about" smooth duration={1000}>
             <div className="scroll-down">
               <div className="mouse">
                 <div className="scroller" />
               </div>
             </div>
-          </a>
+          </Link>
         </Fade>
       </Container>
     </section>
