@@ -34,7 +34,7 @@ export const projectsData = [
       'SUNA is proudly Australian-owned and was established in Toowoomba, Queensland in 1984. We are a husband and wife passionate about our business and we are dedicated to delivering style and innovation without having to compromise on comfort. Suna Shoes offers an extensive range of women’s footwear from around the world.',
     info2: '',
     url: 'https://www.suna.com.au/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/chrisgen19', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -44,7 +44,7 @@ export const projectsData = [
       '‘Experience Sunnybank’, a website dedicated to the many restaurants and entertainment retailers that Sunnybank Plaza and Sunny Park have on offer.',
     info2: '',
     url: 'https://www.experiencesunnybank.com.au/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/chrisgen19', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -54,7 +54,7 @@ export const projectsData = [
       'Merthyr Village is the Heart of New Farm and one of Brisbane’s premier shopping locations complete with more than twenty specialty stores in Food, Homewares, Gifts, Books, Liquor and the latest in women’s fashion.',
     info2: '',
     url: 'https://www.merthyrvillage.com.au/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/chrisgen19', // if no repo, the button will not show up
   },
 ];
 
